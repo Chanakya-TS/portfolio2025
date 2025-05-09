@@ -25,10 +25,10 @@ export default function Landing() {
   
   const handleHoverStart = () => {
     // Reset window scroll to top
-    window.scrollTo({
-      top: 1750,
-      behavior: 'auto' // Use 'auto' for instant scrolling without animation
-    });
+    // window.scrollTo({
+    //   top: 1750,
+    //   behavior: 'auto' // Use 'auto' for instant scrolling without animation
+    // });
   };
 
   return (
@@ -1498,9 +1498,9 @@ export default function Landing() {
       </div>
       <div 
       ref={containerRef}
-      className=" relative h-[300vh] w-full hide-scrollbar" // Using arbitrary value
+      className=" relative h-[180vh] w-full hide-scrollbar" // Using arbitrary value
       >
-        <div className="sticky top-0 h-screen w-full overflow-x-hidden pointer-events-none hide-scrollbar">
+        <div className="sticky top-0 h-screen w-full overflow-hidden pointer-events-none hide-scrollbar">
           <motion.svg xmlns="http://www.w3.org/2000/svg" viewBox="210 50 2121.91 3033.05" preserveAspectRatio="xMidYMid meet" style={{ willChange: "transform" }}>
             <defs>
               <filter id="outer-glow-1" x="1588.15" y="2504.53" width="366" height="380.52" filterUnits="userSpaceOnUse">
@@ -2856,11 +2856,11 @@ export default function Landing() {
               </motion.g>
               <motion.g animate={{y:[-5, 5, -5], transition: {delay: 1, duration: 4, repeat: Infinity, ease: "easeInOut", repeatType: "mirror"}}}>
                 <motion.g id="Name" style={{y: subjectY}} initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}} >
-                  <text transform="translate(1150 593.34)" style={{fill: "#fff", filter: "url(#outer-glow-11)", fontFamily: "SterionRegular, Sterion"}} ><tspan style={{fontSize: "162.74px"}}><tspan x="0" y="0">Chanak</tspan><tspan x="805.53" y="0" style={{letterSpacing: "-.07em"}}>y</tspan><tspan x="909.2" y="0">a</tspan></tspan><tspan style={{fontSize: "47.46px"}}><tspan x="0" y="56.96" xmlSpace="preserve" style={{letterSpacing: "1.21em"}}>			</tspan><tspan x="244.1" y="56.96" style={{letterSpacing: "0em"}}>Thirumala Setty</tspan></tspan></text>
+                  <text transform="translate(1250 593.34)" style={{fill: "#fff", filter: "url(#outer-glow-11)", fontFamily: "Dk Otago"}} ><tspan style={{fontSize: "162.74px"}}><tspan x="0" y="0">Chanakya</tspan></tspan><tspan style={{fontSize: "47.46px"}}><tspan x="0" y="56.96" xmlSpace="preserve" style={{letterSpacing: "1.21em"}}>			</tspan><tspan x="244.1" y="56.96" style={{letterSpacing: "0em"}}>Thirumala Setty</tspan></tspan></text>
                 </motion.g>
               </motion.g>
               <motion.g id="Quote" style={{y: astroY, translateX: 200, scale:0.9}}>
-                <text transform="translate(1017.64 1910.09)" style={{fill: "#fff", filter: "url(#outer-glow-12)", fontSize: "60px"}}><tspan style={{fontFamily: "DKOtago, DK Otago"}}><tspan x="0" y="0">“</tspan><tspan x="20.64" y="0" style={{letterSpacing: "-.05em"}}>S</tspan><tspan x="40.02" y="0">om</tspan><tspan x="134.82" y="0" style={{letterSpacing: "-.06em"}}>ew</tspan><tspan x="213.72" y="0" style={{letterSpacing: "0em"}}>he</tspan><tspan x="279.42" y="0" style={{letterSpacing: "-.05em"}}>r</tspan><tspan x="310.44" y="0">e, </tspan><tspan x="375.6" y="0" style={{letterSpacing: "-.05em"}}>s</tspan><tspan x="394.98" y="0">omething inc</tspan><tspan x="808.61" y="0" style={{letterSpacing: "-.05em"}}>r</tspan><tspan x="839.63" y="0">edible is</tspan></tspan><tspan style={{fontFamily: "DKOtago, DK Otago"}}><tspan x="0" y="72" xmlSpace="preserve">         </tspan><tspan x="222.47" y="72" style={{letterSpacing: "-.26em"}}>w</tspan><tspan x="264.89" y="72" style={{letterSpacing: "-.04em"}}>a</tspan><tspan x="306.29" y="72">iting </tspan><tspan x="477.29" y="72" style={{letterSpacing: "-.11em"}}>t</tspan><tspan x="504.11" y="72" style={{letterSpacing: "0em"}}>o be </tspan><tspan x="669.95" y="72" style={{letterSpacing: "-.07em"}}>k</tspan><tspan x="702.65" y="72">n</tspan><tspan x="738.35" y="72" style={{letterSpacing: "-.15em"}}>o</tspan><tspan x="783.41" y="72" style={{letterSpacing: "-.05em"}}>w</tspan><tspan x="838.31" y="72">n.” </tspan></tspan><tspan style={{fontFamily: "SterionRegular, Sterion"}}><tspan x="0" y="144"> </tspan></tspan></text>
+                <text transform="translate(1017.64 1910.09)" style={{fill: "#fff", filter: "url(#outer-glow-12)", fontSize: "60px"}}><tspan style={{fontFamily: "DKOtago, DK Otago"}}><tspan x="0" y="0">“</tspan><tspan x="20.64" y="0" style={{letterSpacing: "-.05em"}}>S</tspan><tspan x="40.02" y="0">om</tspan><tspan x="134.82" y="0" style={{letterSpacing: "-.06em"}}>ew</tspan><tspan x="213.72" y="0" style={{letterSpacing: "0em"}}>he</tspan><tspan x="279.42" y="0" style={{letterSpacing: "-.05em"}}>r</tspan><tspan x="310.44" y="0">e, </tspan><tspan x="375.6" y="0" style={{letterSpacing: "-.05em"}}>s</tspan><tspan x="394.98" y="0">omething inc</tspan><tspan x="808.61" y="0" style={{letterSpacing: "-.05em"}}>r</tspan><tspan x="839.63" y="0">edible is</tspan></tspan><tspan style={{fontFamily: "DKOtago, DK Otago"}}><tspan x="0" y="72" xmlSpace="preserve">         </tspan><tspan x="222.47" y="72" style={{letterSpacing: "-.26em"}}>w</tspan><tspan x="264.89" y="72" style={{letterSpacing: "-.04em"}}>a</tspan><tspan x="306.29" y="72">iting </tspan><tspan x="477.29" y="72" style={{letterSpacing: "-.11em"}}>t</tspan><tspan x="504.11" y="72" style={{letterSpacing: "0em"}}>o be </tspan><tspan x="669.95" y="72" style={{letterSpacing: "-.07em"}}>k</tspan><tspan x="702.65" y="72">n</tspan><tspan x="738.35" y="72" style={{letterSpacing: "-.15em"}}>o</tspan><tspan x="783.41" y="72" style={{letterSpacing: "-.05em"}}>w</tspan><tspan x="838.31" y="72">n.” </tspan></tspan><tspan style={{fontFamily: "Dk Otago"}}><tspan x="0" y="144"> </tspan></tspan></text>
                 <g style={{filter: "url(#outer-glow-14)"}}>
                   <path d="M1418.26,2024.76h14.62v3.51h-14.62v-3.51Z" style={{fill: "#fff"}}/>
                   <path d="M1487.62,2037.44c2.81,0,5.41-1.02,7.38-2.78l2.7,2.41c-2.59,2.49-6.14,3.98-10.01,3.98-8.08,0-14.62-6.54-14.62-14.62s6.54-14.62,14.62-14.62c3.87,0,7.38,1.54,10.01,4.02l-2.7,2.41c-2.01-1.75-4.64-2.81-7.53-2.81-5.96,0-10.93,5.04-10.93,11s5.01,11,11.07,11Z" style={{fill: "#fff"}}/>

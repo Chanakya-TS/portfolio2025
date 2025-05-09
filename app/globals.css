@@ -1,8 +1,14 @@
 @import "tailwindcss";
 @font-face {
   font-family: 'Sterion';
-  src: url('../assets/fonts/sterion-bllld-webfont.woff') format('woff2'),
-       url('../assets/fonts/sterion-bllld-webfont.woff2') format('woff');
+  src: url('../assets/fonts/sterion-bllld-webfont.woff2') format('woff2'),
+       url('../assets/fonts/sterion-bllld-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dk Otago';
+  src: url('../assets/fonts/dk_otago-webfont.woff2') format('woff2'),
+       url('../assets/fonts/dk_otago-webfont.woff') format('woff');
 }
 
 
